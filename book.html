@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotellet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__menu">
+                <li class="navbar__item"><a href="index.html" class="navbar__link">HEM</a></li>
+                <li class="navbar__item"><a href="about.html" class="navbar__link">OM OSS</a></li>
+                <li class="navbar__item"><a href="book.html" class="navbar__link">BOKA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <div class="booking">
+            <h2 class="booking__title">Boka rum</h2>
+            <form class="booking__form">
+                <section class="booking__form-group">
+                    <label for="check-in-date" class="booking__label">Incheckningsdatum</label>
+                    <input type="date" id="check-in-date" class="booking__input">
+                </section>
+                <section class="booking__form-group">
+                    <label for="guests" class="booking__label">Antal gäster</label>
+                    <input type="number" id="guests" class="booking__input">
+                </section>
+                <button type="submit" class="booking__button">Sök</button>
+            </form>
+            <section class="booking__results">
+                <h3 class="booking__results-title">Sökresultat</h3>
+                <p class="booking__results-text">Deluxe-rum</p>
+                <img src="assets/photos/01-day.jpg" alt="Sökresultat" class="booking__results-image">
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__content">
+            <p class="footer__text">Created by Linus Zackrisson</p>
+            <a href="https://github.com/Linuszackrisson" class="footer__link">GitHub</a>
+        </section>
+    </footer>
+
+
+    
+</body>
+
+</html>
+

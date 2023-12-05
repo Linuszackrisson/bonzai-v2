@@ -188,7 +188,7 @@ body {
 
 }
 
-.footer-content {
+.footer__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -208,6 +208,136 @@ body {
 .footer__link:hover {
     text-decoration: underline;
 }
+
+/* about page */
+
+.hotel-info {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.hotel-info__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hotel-info__description {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.rooms {
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.rooms__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.room {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.room__title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.room__image {
+    width: 100%;
+    aspect-ratio: unset;
+    margin-bottom: 10px;
+    border: #53E9BD 5px solid;
+    border-radius: 5px;
+}
+
+.room__description {
+    font-size: 14px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* bokningssida */
+
+.booking {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+.booking__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.booking__form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 30%;
+}
+
+.booking__form-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.booking__label {
+    font-size: 16px;
+}
+
+.booking__input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.booking__button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #53E9BD;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 5rem;
+}
+
+.booking__results {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.booking__results-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.booking__results-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.booking__results-image {
+    width: 100%;
+    aspect-ratio: unset;
+    margin-bottom: 10px;
+    border: #53E9BD 5px solid;
+    border-radius: 5px;
+}
+
 
 /* Media quary för telefon */
 
