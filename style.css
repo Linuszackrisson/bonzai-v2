@@ -1,3 +1,5 @@
+/* Stilmall för Bonz.ai */
+
 @font-face {
     font-family: 'Montserrat';
     src: url('/path/to/montserrat.woff2') format('woff2'),
@@ -7,31 +9,31 @@
 body {
     margin: auto;
     font-family: 'Montserrat', sans-serif;
-    background-color: #53E9BD;
-
+    background-color: #F8F1E8;
 }
 
-.header {
-    background-color: #006666;
+.wrapper {
     max-width: 1400px;
     margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Header & Nav  */
+
+.header {
+    background-color: #1C2331;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-bottom: #53E9BD 5px solid;
-    margin-top: 15px;
+    border-bottom: #FFC857 5px solid;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-
-    
-    
 }
 
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: flex-end
+    justify-content: flex-end;
 }
-
-
 
 .navbar__menu {
     list-style: none;
@@ -42,15 +44,14 @@ body {
 
 .navbar__item {
     font-size: 18px;
-    
 }
 
 .navbar__link {
-    color: #006666;
+    color: #1C2331;
     text-decoration: none;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #53E9BD;
+    background-color: #FFC857;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -62,16 +63,12 @@ body {
     text-decoration: underline;
 }
 
-/* Main Content */
-.main {
-    max-width: 1400px;
-    margin: 0 auto;
-    background-color: #006666;
+/* Huvudinnehåll */
+
+main {
+    background-color: #1C2331;
     color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-
-
 }
 
 .welcome-page {
@@ -79,15 +76,14 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #006666;
+    background-color: #1C2331;
     color: white;
     padding: 15px;
-
 }
+
 .welcome-page__content {
     padding: 50px;
     width: 50%;
-   
 }
 
 .welcome-page__title {
@@ -102,8 +98,8 @@ body {
 
 .welcome-page__button {
     padding: auto;
-    background-color: #53E9BD;
-    color: #006666;
+    background-color: #FFC857;
+    color: #1C2331;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -111,12 +107,10 @@ body {
     height: 40px;
     font-size: 16px;
     font-weight: 700;
-    
 }
 
 .welcome-page__image img {
     width: 100%;
-    
 }
 
 .welcome-page__image {
@@ -124,18 +118,14 @@ body {
     aspect-ratio: 1;
 }
 
-
-/* Reviews */
+/* Recensioner */
 .reviews {
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    border-top: #53E9BD 5px solid;
-
+    border-top: #FFC857 5px solid;
 }
-
-
 
 .review {
     display: flex;
@@ -144,7 +134,6 @@ body {
     margin-bottom: 20px;
     padding: 20px;
     width: 33%;
-    
 }
 
 .review__title {
@@ -159,7 +148,7 @@ body {
 
 .review__author {
     font-size: 12px;
-    color: #53E9BD;
+    color: #FFC857;
 }
 
 .review__stars {
@@ -172,44 +161,7 @@ body {
     height: 20px;
 }
 
-.footer {
-    background-color: #006666;
-    color: white;
-    padding-top: 3px;
-    padding-bottom: 15px;
-    max-width: 1400px;
-    margin: auto;
-    border-top: #53E9BD 5px solid;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.footer__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer__text {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-.footer__link {
-    color: #53E9BD;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.footer__link:hover {
-    text-decoration: underline;
-}
-
-/* about page */
+/* Om sidan */
 
 .hotel-info {
     margin-bottom: 20px;
@@ -228,8 +180,9 @@ body {
 }
 
 .rooms {
-    margin-bottom: 20px;
-    padding: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .rooms__title {
@@ -252,7 +205,7 @@ body {
     width: 100%;
     aspect-ratio: unset;
     margin-bottom: 10px;
-    border: #53E9BD 5px solid;
+    border: #FFC857 5px solid;
     border-radius: 5px;
 }
 
@@ -262,7 +215,7 @@ body {
     text-align: center;
 }
 
-/* bokningssida */
+/* Bokningssida */
 
 .booking {
     display: grid;
@@ -302,7 +255,7 @@ body {
 .booking__button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #53E9BD;
+    background-color: #FFC857;
     color: white;
     border: none;
     cursor: pointer;
@@ -334,12 +287,49 @@ body {
     width: 100%;
     aspect-ratio: unset;
     margin-bottom: 10px;
-    border: #53E9BD 5px solid;
+    border: #FFC857 5px solid;
     border-radius: 5px;
 }
 
+/* Footer */
 
-/* Media quary för telefon */
+.footer {
+    background-color: #1C2331;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    max-width: 1400px;
+    margin: auto;
+    border-top: #FFC857 5px solid;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__text {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    color: #FFC857;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+/* Media query för mobila enheter */
 
 @media only screen and (max-width: 600px) {
     .welcome-page__image {
@@ -353,23 +343,22 @@ body {
 
     .review {
         width: 100%;
-        
     }
-
-    
 
     .navbar {
         display: flex;
         align-items: center;
-        justify-content: center
+        justify-content: center;
     }
-    .welcome-page__content { /* ändrade storlek på hela sektionen så den är mer läsbar på telefon */
+
+    .welcome-page__content {
         padding: 20px;
         width: 100%;
-       
     }
 
+    .review__description {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
-
-
-
