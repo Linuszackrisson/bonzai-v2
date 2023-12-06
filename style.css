@@ -46,6 +46,7 @@ body {
     font-size: 18px;
 }
 
+
 .navbar__link {
     color: #1C2331;
     text-decoration: none;
@@ -172,47 +173,59 @@ main {
 .hotel-info__title {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .hotel-info__description {
     font-size: 16px;
     margin-bottom: 10px;
+    margin: auto;
+    max-width: 80%;
 }
 
 .rooms {
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
+    
+    
+
 }
 
-.rooms__title {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
+
 
 .room {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
+    
 }
 
 .room__title {
     font-size: 18px;
     margin-bottom: 10px;
+    text-align: center;
+    
 }
 
 .room__image {
-    width: 100%;
     aspect-ratio: unset;
     margin-bottom: 10px;
     border: #FFC857 5px solid;
     border-radius: 5px;
+    max-width: 80%;
+    margin: auto
 }
 
 .room__description {
     font-size: 14px;
     margin-bottom: 10px;
     text-align: center;
+    max-width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    
 }
 
 /* Bokningssida */
@@ -360,5 +373,17 @@ main {
         font-size: 14px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .room__image {
+        max-width: 100%;
+    }
+
+    .hotel-info__description {
+        max-width: 100%;
+    }
+
+    .room__description {
+        max-width: 100%;
     }
 }
