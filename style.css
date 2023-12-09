@@ -157,7 +157,7 @@ main {
     flex-direction: row;
 }
 
-.review__stars img {
+.review__stars-item {
     width: 20px;
     height: 20px;
 }
